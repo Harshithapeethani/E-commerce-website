@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TechNest </title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"/>
+        <link rel="stylesheet" href=""/>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body> 
+     <section id="header">
+        <a href="#"><img src="image/logo3.png" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="login.html">Login </a></li>
+            <li id="lg-bag"><a href="cart.html"><i class="ri-shopping-bag-4-fill"></i></a></li>
+            <a href="#" id="close"><i class="ri-close-fill"></i> </a>
+            </ul>
+        </div>
+<div id="mobile">
+    <a href="cart.html"><i class="ri-shopping-bag-4-fill"></i></a>
+    <i id="bar" class="ri-menu-fold-fill"></i>
+</div>
+    </section> 
+
+    <section id="page-header">
+      
+       <h2>#Stayhome</h2>
+       
+       <p>Save more with coupons & up to 70% off!</p>
+       
+    </section>
+
+    <div class="container">
+        <div class="controls">
+            <div>
+                <label for="sortPrice">Price:</label>
+                <select id="sortPrice" onchange="sortItems()">
+                    <option value="low-to-high">Low to High</option>
+                    <option value="high-to-low">High to Low</option>
+                </select>
+            </div>
+            <div>
+                <label for="categories">Categories:</label>
+                <select id="categories" onchange="filterItems()">
+                    <option value="all">All Categories</option>
+                    <option value="laptops">Laptops</option>
+                    <option value="mobiles">Mobiles</option>
+                    <option value="tablets">Tablets</option>
+                    <option value="earpods">Earpods</option>
+                </select>
+            </div>
+        </div>
+    </div>
+   
+        
+
+    
+<section id="product1"class="section-p1">
+    <div class="pro-container"> 
+        <div class="pro"onclick="window.location.href='sproduct.html';">
+            <img src="image/laptop2.jpg" alt="">
+            <div class= "des">
+                <span>iiisi</span>
+                <h5>MSI Gaming Raider GE66, Intel 12th Gen</h5>
+                <div class="star">
+                    
+                 <i class="ri-star-fill"></i> 
+                 <i class="ri-star-fill"></i> 
+                 <i class="ri-star-fill"></i> 
+                 <i class="ri-star-fill"></i> 
+                 <i class=" ri-star-half-line"></i> 
+                </div>
+                <h4>78,999 /-</h4>
+            </div>
+            
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+
+        <div class="pro"onclick="window.location.href='sproduct2.html';">
+            <img src="image/l1.jpg" alt="">
+            <div class= "des">
+                <span>Hp</span>
+                <h5>Processor-AMD Ryzen 3 3250U ;Memory 8GB 512 GB SSD storage</h5>
+                <div class="star">
+                    
+                 <i class="ri-star-fill"></i> 
+                 <i class="ri-star-fill"></i> 
+                 <i class="ri-star-fill"></i> 
+                 <i class="ri-star-fill"></i> 
+                 <i class=" ri-star-half-line"></i> 
+                </div>
+                <h4>69,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+
+        <div class="pro"onclick="window.location.href='sproduct3.html';">
+            <img src="image/kettle1.jpg" alt="">
+            <div class= "des">
+                <span>Hallvens</span>
+                <h5>Stainless steel electric kettle</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i> 
+                 
+                </div>
+                <h4>4,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct4.html';">
+            <img src="image/at2.jpg" alt="">
+            <div class= "des">
+                <span>Apple TV</span>
+                <h5>Apple TV 4K  Dolby Vision and HDR10+</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i> 
+                </div>
+                <h4>25,899 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+
+        <div class="pro"onclick="window.location.href='sproduct5.html';">
+            <img src="image/h1.jpg" alt="">
+            <div class= "des">
+                <span>Boat Headphones </span>
+                <h5>Black boAt Rockerz is a wireless headset for music lovers</h5>
+                <div class="star">
+            
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    
+                </div>
+                <h4>3,799 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        
+        <div class="pro"onclick="window.location.href='sproduct6.html';">
+            <img src="image/e3.jpg" alt="">
+            <div class= "des">
+                <span>Echo Dot</span>
+                <h5>Echo Dot with clock—our most popular smart speaker with Alexa</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                </div>
+                <h4>18,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct7.html';">
+            <img src="image/pods1.jpg" alt="">
+            <div class= "des">
+                <span> AirPods</span>
+                <h5>The new AirPods combine intelligent design with  crystal clear sound.</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i> 
+                </div>
+                <h4>21,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct8.html';">
+            <img src="image/c1.webp" alt="">
+            <div class= "des">
+                <span>Apple MagSafe Battery Pack</span>
+                <h5>Apple MagSafe Battery Pack Wireless Power Bank White Lithium-Ion</h5>
+                <div class="star">
+                     
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i> 
+                     
+                </div>
+                <h4>9,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct9.html';">
+            <img src="image/sony.jpg" alt="">
+            <div class= "des">
+                <span>Sony TV</span>
+                <h5>
+                    The PS5 console unleashes new gaming possibilities</h5>
+                <div class="star">
+                    
+                 
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i> 
+                </div>
+                <h4>68,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct10.html';">
+            <img src="image/vaccum.jpeg" alt="">
+            <div class= "des">
+                
+                <span>Xiaomi Robot Vacuum Cleaner</span>
+                <h5>The Xiaomi Robot Vacuum Cleaner S10 features a cutting-edge laser distance sensor </h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                </div>
+                <h4>25,678 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct11.html';">
+            <img src="image/p2.jpg" alt="">
+            <div class= "des">
+                <span>Samsung Galaxy S24 Ultra 5G AI Smartphone</span>
+                <h5>Meet Galaxy S24 Ultra, the ultimate form of Galaxy </h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                </div>
+                <h4>98,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct12.html';">
+            <img src="image/fitness.jpeg" alt="">
+            <div class= "des">
+                <span>samsung Galaxy Fitband</span>
+                <h5>Track your every move with ease on this Samsung Galaxy Fit </h5>
+                <div class="star">
+                    
+                
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                </div>
+                <h4>2,699 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+          </div>
+  
+        <div class="pro"onclick="window.location.href='sproduct13.html';">
+            <img src="image/n1.jpeg" alt="">
+            <div class= "des">
+                <span>Dell</span>
+                <h5>Featuring a vibrant display and powerfull proccessor</h5>
+                <div class="star">
+                    
+                    
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                </div>
+                <h4>86,899 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct14.html';">
+            <img src="image/n2.jpeg" alt="">
+            <div class= "des">
+                <span>lenovo</span>
+                <h5>Reliable performance and inovative features</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                
+                </div>
+                <h4>57,899 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+             
+        </div><div class="pro"onclick="window.location.href='sproduct15.html';">
+            <img src="image/n3.jpeg" alt="">
+            <div class= "des">
+                <span>ASUS</span>
+                <h5>Discover the powerful performance and sleek design of the ASUS</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                </div>
+                <h4>78,799 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct16.html';">
+            <img src="image/n4.jpeg" alt="">
+            <div class= "des">
+                <span>Apple</span>
+                <h5>Apple  4K lets you watch shows and movies in stunning 4K Dolby Vision and HDR10+</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                
+                </div>
+                <h4>1,49,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct17.html';">
+            <img src="image/pa1.jpg" alt="">
+            <div class= "des">
+                <span>Samsund galaxy tab </span>
+                <h5>64 GB ROM
+                    21.08 cm (8.3 inch) Display</h5>
+                <div class="star">
+            
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                </div>
+                <h4>27,899 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct18.html';">
+            <img src="image/i2.webp" alt="">
+            <div class= "des">
+                <span>lenovo</span>
+                <h5>New multimedia capabilities and different sizes also suits to various needs</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                </div>
+                <h4>25,889 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct19.html';">
+            <img src="image/i3.webp" alt="">
+            <div class= "des">
+                <span>ipad mini</span>
+                <h5>The new ipad combine intelligent design and crystal clear display</h5>
+                <div class="star">
+                    
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                </div>
+                <h4>41,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>
+        <div class="pro"onclick="window.location.href='sproduct20.html';">
+            <img src="image/i4.jpg" alt="">
+            <div class= "des">
+                <span>ipad pro</span>
+                <h5>Apple iPad Pro 11 3rd Gen WiFi iOS Tablet</h5>
+                <div class="star">
+                     
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class="ri-star-fill"></i> 
+                    <i class=" ri-star-half-line"></i>
+                </div>
+                <h4>46,999 /-</h4>
+            </div>
+            <a href="#"><i class="ri-shopping-cart-2-line cart"></i></a> 
+        </div>  
+    </div>
+   </section>
+ <section id="pagination" class="section-p1">
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#"><i class="ri-arrow-right-line"></i></a>
+ </section>
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4><button class="normal">Sign up</button> For Newsletters</h4>
+        <p>Get E-mail updates about our latest shop and <span>Special offers</span></p>
+
+    </div>
+    <div class="form">
+        <input type="text" placeholder="Your email address">
+
+    </div>
+</section>
+
+  
+<footer class="section-p1"> 
+    <div class="col">
+        <img class="logo5" src="image/logo3.png" alt="">
+        <h4>Contact</h4>
+        <p><strong>Address: </strong>  Hyderabad
+       </p>
+       <p><strong>phone: </strong> +01 2222 365/(+91) 01 2345 6789</p>
+       <p><strong>hours: </strong> 10.00 AM- 18.00 PM </p>
+       <div class="follow">
+        <h4>Follow us</h4>
+        <div class="icon">
+            <i class="ri-whatsapp-fill"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-facebook-fill"></i>
+            <i class="ri-instagram-fill"></i>
+            <i class="ri-youtube-fill"></i>
+        </div>
+       </div>
+     </div>
+ <div class="col">
+    <h4>About</h4>
+    <a href="#">About us</a>
+    <a href="#">Delivery Information</a>
+    <a href="#">Privacy Policy</a> 
+    <a href="#">Terms & Conditions</a>
+    <a href="#">Contat Us</a>
+   </div>
+   <div class="col">
+    <h4>My Account</h4>
+    <a href="#">Sign In</a>
+    <a href="#">View Cart</a>
+    <a href="#">My Wishlist</a> 
+    <a href="#">Track My order</a>
+    <a href="#">Help</a>
+   </div>
+<div class="col install">
+    <h4>Install App</h4>
+    <p>From App Store or Google play</p>
+    <div class="row">
+        <img src="image/app.jpg" alt="">
+        <img src="image/play.jpg" alt="">
+    </div>
+    <p>Secured Payment Gateways</p>
+    <img src="image/pay.png" alt="">
+</div>
+<div class="copyright">
+    <p>&copy; 2024, TechNest Ecommerce Website</p>
+</div>
+
+   </footer>
+   
+
+   <script src="script.js"></script>
+
+    </body>
+
+</html>
